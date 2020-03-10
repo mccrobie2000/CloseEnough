@@ -130,7 +130,7 @@
             case 2 : // object not close
                 switch (event)
                 {
-                    case OBJECT_CLOSE : /* break; WHY IS THIS HERE? */
+                    case OBJECT_CLOSE :
                         digitalWrite(closePin, HIGH);
                         timeOn = millis();
                         state = 0;
